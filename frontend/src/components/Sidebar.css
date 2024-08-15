@@ -1,0 +1,46 @@
+.sidebar {
+    width: 240px;
+    background-color: #f8f8f8;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    padding: 15px 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.sidebar-menu .active {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.sidebar-user {
+    position: absolute;
+    bottom: 20px;
+}
+
+.sidebar-user img {
+    border-radius: 50%;
+}
+
+.logout-button {
+    margin-top: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}

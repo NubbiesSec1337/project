@@ -1,0 +1,36 @@
+.header {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.header-actions button,
+.header-actions input {
+    margin-left: 10px;
+    padding: 10px 15px;
+}
+
+.add-customer {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.search-button,
+.filter-button,
+.refresh-button {
+    background-color: #f0f0f0;
+    border: none;
+}

@@ -1,0 +1,10 @@
+.app {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 240px; /* Adjust this width to match your sidebar */
+  padding: 20px;
+  width: calc(100% - 240px); /* Adjust to match sidebar width */
+  background-color: #f5f6fa;
+}

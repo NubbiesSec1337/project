@@ -1,0 +1,67 @@
+.customer-table {
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.customer-table th,
+.customer-table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.customer-table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.customer-table tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.level {
+    font-weight: bold;
+}
+
+.level.warga {
+    color: orange;
+}
+
+.level.juragan {
+    color: blue;
+}
+
+.level.sultan {
+    color: green;
+}
+
+.level.konglomerat {
+    color: red;
+}
+
+.detail-button,
+.delete-button {
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.detail-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+}
