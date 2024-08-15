@@ -1,0 +1,65 @@
+/* TopMenuWidget.css */
+.top-menu-widget {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    max-width: 250px;
+}
+
+.top-menu-widget h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.top-menu-widget h3 span {
+    color: orange;
+}
+
+.top-menu-widget .date-range {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.top-menu-widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-menu-widget li {
+    font-size: 14px;
+    color: #333;
+    padding: 8px 0;
+    position: relative;
+    border-radius: 8px;
+}
+
+.top-menu-widget li.top-item {
+    background: #f9f9f9;
+    font-weight: bold;
+    position: relative;
+    padding-left: 40px;
+}
+
+.top-menu-widget .top-rank {
+    background: orange;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.top-menu-widget li:not(.top-item) {
+    color: #999;
+}

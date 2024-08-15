@@ -1,0 +1,125 @@
+.customer-detail {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.customer-detail h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.customer-detail h3 {
+    font-size: 24px;
+    margin-top: 25px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 5px;
+}
+
+.customer-info p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.customer-info p strong {
+    color: #333;
+    font-weight: 600;
+}
+
+.level-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.level-badge.warga {
+    background-color: #f39c12;
+}
+
+.level-badge.sultan {
+    background-color: #3498db;
+}
+
+.level-badge.juragan {
+    background-color: #2ecc71;
+}
+
+.level-badge.konglomerat {
+    background-color: #9b59b6;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.order-table thead {
+    background-color: #f9f9f9;
+}
+
+.order-table th, 
+.order-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-table th {
+    font-weight: bold;
+    color: #333;
+}
+
+.quantity-input {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.update-button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.update-button:hover {
+    background-color: #218838;
+}
+
+.close-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+.close-button:hover {
+    background-color: #c82333;
+}
